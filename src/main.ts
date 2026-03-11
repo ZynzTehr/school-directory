@@ -3,11 +3,12 @@ const { log } = console;
 document
   .getElementById("inputfile")!
   .addEventListener("change", function (e: Event) {
-    if ((<HTMLInputElement>e.target).files) {
-      let file = (<HTMLInputElement>e.target).files![0];
+    const files = (<HTMLInputElement>e.target).files;
+    if (files && files.length > 0) {
+      let file = files[0];
       var fr = new FileReader();
       fr.onload = function () {
-        const myData = fr.result ?.toString();
+        const myData = fr.result?.toString();
         if (myData) {
           readDataFiles(myData);
         }

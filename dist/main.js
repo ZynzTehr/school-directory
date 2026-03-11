@@ -4,8 +4,9 @@ const { log } = console;
 document
     .getElementById("inputfile")
     .addEventListener("change", function (e) {
-    if (e.target.files) {
-        let file = e.target.files[0];
+    const files = e.target.files;
+    if (files && files.length > 0) {
+        let file = files[0];
         var fr = new FileReader();
         fr.onload = function () {
             var _a;

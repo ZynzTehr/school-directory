@@ -154,13 +154,13 @@ function main() {
     let year = "Sophomore";
     log(`All ${year} Students:`, getAllStudentInYear(year));
     // Check staff lounge and building key access for several indvidiuals 
-    let personName = "Cedric Diggory";
+    let personName = "Rei Ayanami";
     log(`${personName} has access to the staff lounge: `, checkStaffLoungeAccess(allStudents[personName]));
     log(`${personName} has access to the building key: `, checkBuildingKeyAccess(allStudents[personName]));
-    personName = "Severus Snape";
+    personName = "Lain Iwakura";
     log(`${personName} has access to the staff lounge: `, checkStaffLoungeAccess(allStaff[personName]));
     log(`${personName} has access to the building key: `, checkBuildingKeyAccess(allStaff[personName]));
-    personName = "Albus Dumbledore";
+    personName = "Gendo Ikary";
     log(`${personName} has access to the staff lounge: `, checkStaffLoungeAccess(allStaff[personName]));
     log(`${personName} has access to the building key: `, checkBuildingKeyAccess(allStaff[personName]));
 }

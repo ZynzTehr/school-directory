@@ -5,7 +5,7 @@ Ryuko Matoi, student, junior
 Rei Ayanami, student, sophomore
 Asuka Langley, student, sophomore
 Lain Iwakura, teacher
-Konata Izumi , student, freshman
+Konata Izumi, student, freshman
 Shinji Ikari, student, sophomore
 Kaname Chidori, student, sophomore
 Nanako Kuroi, teacher
@@ -15,3 +15,9 @@ Yutaka Kobayakawa, student, sophomore
 Miyuki Takara, teacher
 Tenma Tsukamoto, student, sophomore
 Nagisa Nagatoro, teacher
+/
+Mathematics; Lain Iwakura; Rei Ayanami, Asuka Langley, Shinji Ikari
+History; Nanako Kuroi; Ryuko Matoi, Kaname Chidori, Tsukasa Hiiragi
+Physical Education; Lupin the 3rd; Sousuke Sagura, Tenma Tsukamoto, Yutaka Kobayakawa
+Science; Miyuki Takara; Konata Izumi, Rei Ayanami, Asuka Langley
+Literature; Nagisa Nagatoro; Shinji Ikari, Tsukasa Hiiragi
